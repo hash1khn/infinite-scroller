@@ -1,0 +1,56 @@
+html{
+    box-sizing:border-box;
+}
+body{
+    display: block;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+    background:url('https://img.freepik.com/free-vector/3d-perspective-style-diamond-shape-white-background_1017-27556.jpg?size=626&ext=jpg&ga=GA1.2.1831557603.1687370572&semt=ais');
+}
+h1{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 4px;
+
+}
+/* Loader */
+.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* Image Container */
+.image-container{
+    margin: 10px 20%;
+
+}
+.image-container img{
+    width: 100%;
+    margin-top: 5px;
+    background-repeat: repeat-y;
+    
+
+}
+/* Media query for responsive */
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 22px;
+    }
+    .image-container{
+        margin: 10px;
+    }
+    
+}
